@@ -1,7 +1,8 @@
 ---
 layout: default
-title: CyberDuck
-nav_order: 1
+title: Homepage
+description: "CyberDuck project homepage"
+nav_order: 0
 ---
 
 # CyberDuck: świat oczami kaczki *(the world through a duck's eyes)*
