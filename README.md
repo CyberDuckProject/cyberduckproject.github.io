@@ -1,0 +1,3 @@
+## [CyberDuck: the world through a duck’s eyes](https://cyberduckproject.github.io/)
+[Project realized within the action “Fancy for Science”, sponsored by the Capital City of Warsaw.
+The ultimate goal is that of constructing an autonomous, real-size, realistic robotic duck, capable of filming and sensing the surrounding surface as well as underwater environment; in particular, it should be able to get relatively close to real ducks in order to shoot photos and make videos from a genuine duck’s perspective. During operations, CyberDuck will be connected to the internet via a 4G cellular network.](https://cyberduckproject.github.io/#concept)
