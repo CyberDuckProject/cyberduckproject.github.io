@@ -15,6 +15,7 @@ layout: default title: Control Center nav_order: 4
 <table class="embed">
     <tr>
         <th>
+            <canvas id="waterDustChart"></canvas>
         </th>
         <th>
             <canvas id="waterTurbidityChart"></canvas>
