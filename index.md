@@ -110,7 +110,7 @@ We used [this](http://debian.beagleboard.org/images/bone-debian-9.4-lxqt-armhf-2
 [Remote control test during lock-down (in Polish)](https://www.facebook.com/watch/?v=244914043416272&extid=x6MjOiSUnC2mL7XO){: .btn .btn-green }
 
 
-[CyberDuck: the movie (in Polish)](https://drive.google.com/file/d/1F51d_PQbM6Sy0N8YJUKz1SIB9mPCutMD/view?usp=sharing){: .btn .btn-green }
+[CyberDuck: the movie (in Polish)](https://mycloud.fuw.edu.pl/index.php/s/XeZNDYLkpqeDDs4){: .btn .btn-green }
 
 
 
