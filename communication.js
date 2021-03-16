@@ -4,7 +4,7 @@ function randomRange(min, max) {
 
 async function getNextMessage() {
     const URL = 'https://janekb04.w.staszic.waw.pl/test'
-    return fetch(new Request(URL, {mode: 'no-cors'})).then(
+    return fetch(URL).then(
         (response) => {
             return response.text();
         },
