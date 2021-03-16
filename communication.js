@@ -3,7 +3,7 @@ function randomRange(min, max) {
 }
 
 async function getNextMessage() {
-    const URL = 'mock'
+    const URL = 'https://janekb04.w.staszic.waw.pl/test'
     return fetch(new Request(URL, {mode: 'no-cors'})).then(
         (response) => {
             return response.text();
