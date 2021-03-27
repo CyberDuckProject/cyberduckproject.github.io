@@ -3,8 +3,7 @@ function randomRange(min, max) {
 }
 
 async function getNextMessage() {
-    const URL = 'localhost:80'
-    return fetch(URL).then(
+    return fetch("http://localhost/").then(
         (response) => {
             return response.text();
         },
