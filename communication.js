@@ -3,7 +3,7 @@ function randomRange(min, max) {
 }
 
 async function getNextMessage() {
-    return fetch("http://localhost/cyberduck").then(
+    return fetch(document.getElementById("cyberduck-ip").value).then(
         (response) => {
             return response.text();
         },

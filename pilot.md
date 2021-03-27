@@ -7,7 +7,9 @@ layout: default title: Control Center nav_order: 4
 ## Sensors
 
 Here you can find the readings from Cyberduck's sensors updated in real time.
-Note: this will currently work only if the website is run on a device connected to the same local network the CyberDuck is on.
+
+<label for="cyberduck-ip">CyberDuck server IP address:</label>
+<input type="text" id="cyberduck-ip" name="cyberduck-ip" value="http://localhost/cyberduck">
 
 <table class="embed">
     <tr>
