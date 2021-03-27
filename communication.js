@@ -3,8 +3,7 @@ function randomRange(min, max) {
 }
 
 async function getNextMessage() {
-    const URL = 'mock'
-    return fetch(new Request(URL, {mode: 'no-cors'})).then(
+    return fetch("http://localhost/cyberduck").then(
         (response) => {
             return response.text();
         },
