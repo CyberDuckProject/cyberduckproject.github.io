@@ -22,7 +22,7 @@ function update(database, charts)
 
 function main()
 {
-    const TIME_STEP_MS = 1000;
+    const TIME_STEP_MS = 100;
     let charts = new Charts();
     let database = new SensorDatabase();
     setInterval(update, TIME_STEP_MS, database, charts);
