@@ -3,7 +3,7 @@ function randomRange(min, max) {
 }
 
 async function getNextMessage() {
-    const URL = 'https://janekb04.w.staszic.waw.pl/test'
+    const URL = 'localhost:80'
     return fetch(URL).then(
         (response) => {
             return response.text();
