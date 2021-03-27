@@ -3,7 +3,7 @@ function randomRange(min, max) {
 }
 
 async function getNextMessage() {
-    return fetch("http://localhost/").then(
+    return fetch("http://localhost/cyberduck").then(
         (response) => {
             return response.text();
         },
