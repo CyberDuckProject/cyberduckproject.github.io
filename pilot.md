@@ -9,15 +9,15 @@ layout: default title: Control Center nav_order: 4
 Here you can find the readings from Cyberduck's sensors updated in real time.
 
 <label for="cyberduck-ip">CyberDuck server IP address:</label>
-<input type="text" id="cyberduck-ip" name="cyberduck-ip" value="http://localhost/cyberduck">
+<input type="text" id="cyberduck-ip" name="cyberduck-ip" value="http://localhost/environment">
 
 <table class="embed">
     <tr>
         <th>
-            <canvas id="waterDustChart"></canvas>
+            <canvas id="atmosphericPressureChart"></canvas>
         </th>
         <th>
-            <canvas id="waterTurbidityChart"></canvas>
+            <canvas id="atmosphericDustChart"></canvas>
         </th>
     </tr>
     <tr>
@@ -25,15 +25,7 @@ Here you can find the readings from Cyberduck's sensors updated in real time.
             <canvas id="waterTemperatureChart"></canvas>
         </th>
         <th>
-            <canvas id="atmosphericHumidityChart"></canvas>
-        </th>
-        </tr>
-    <tr>
-        <th>
-            <canvas id="atmosphericPressureChart"></canvas>
-        </th>
-        <th>
-            <canvas id="atmosphericTemperatureChart"></canvas>
+            <canvas id="waterTurbidityChart"></canvas>
         </th>
     </tr>
 </table>

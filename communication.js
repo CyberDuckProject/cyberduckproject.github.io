@@ -19,13 +19,11 @@ async function getNextDataBlock() {
             let raw = JSON.parse(message);
 
             return {
-                date: parseDateToMinutes(raw.date),
-                waterDust: raw.dust,
-                waterTurbidity: raw.turbidity,
-                waterTemperature: raw.temperature,
-                atmosphericHumidity: raw.meteoStation.humidity,
-                atmosphericPressure: raw.meteoStation.pressure,
-                atmosphericTemperature: raw.meteoStation.temperature
+                time: parseDateToMinutes(raw.time),
+                atmosphericDust: raw.atmospheric_dust,
+                atmosphericPressure: raw.atmospheric_pressure,
+                waterTemperature: raw.water_temperature,
+                waterTurbidity: raw.water_turbidity
             }
         }
     );
