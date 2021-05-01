@@ -1,1 +1,4 @@
 remote_theme: pmarsceill/just-the-docs
+search_enabled: false
+color_scheme: dark
+title: CyberDuck
