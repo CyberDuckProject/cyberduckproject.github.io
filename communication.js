@@ -19,7 +19,7 @@ async function getNextDataBlock() {
             let raw = JSON.parse(message);
 
             return {
-                date: parseDateToMinutes(raw.time),
+                time: parseDateToMinutes(raw.time),
                 atmosphericDust: raw.atmospheric_dust,
                 atmosphericPressure: raw.atmospheric_pressure,
                 waterTemperature: raw.water_temperature,
