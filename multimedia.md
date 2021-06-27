@@ -16,11 +16,6 @@ nav_order: 3
 
 [Remote control test during lock-down (in Polish)](https://www.facebook.com/watch/?v=244914043416272&extid=x6MjOiSUnC2mL7XO){: .btn .btn-green }
 
-
 [CyberDuck: the movie (in Polish)](https://drive.google.com/file/d/1F51d_PQbM6Sy0N8YJUKz1SIB9mPCutMD/view?usp=sharing){: .btn .btn-green }
 
-
-
-
-
-
+[CyberDuck Presentation on the Ochota na Naukę Conference, June 2021 (in Polish)](https://youtu.be/eo0EqCjQS88?t=11785){: .btn .btn-green }
